@@ -2,6 +2,7 @@ variable "subscription_id" {}
 
 variable "admin_user" {}
 variable "admin_password" {}
+variable "access_key" {}
 
 variable "location" {
   description = "The location where resources are created"
